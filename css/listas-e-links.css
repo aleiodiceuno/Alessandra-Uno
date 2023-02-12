@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-color: white;
+    width: 100%;
+}
+
+body{
+    background-image: url(../imagens/blank-white-crumpled-and-creased-paper-poster-texture-background.jpg)
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    background-color: #c3c8c6;
+    width: 100%;
+    box-sizing: border-box;
+    height: 60px;
+    float: none;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+    background-color:#c3c8c6;
+    font-size: 15px;
+    width: 30%;
+}
+
+ul, ol, dl{
+    text-align: center;
+}
+
+li{
+    text-align: center;
+    font-size: 13px;
+}
+
+.lista1{
+    padding-right: 38px;
+}
+
+.lista2{
+    padding-right: 13px;
+}
+
+.lista3{
+    padding-right: 23px;
+}
+
+.lista4{
+padding-right: 12px;
+}
+
+.lista6{
+    padding-right: 25px;
+}
+
+.lista7{
+    font-family: arial;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.lista8{
+    font-family: arial;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.lista9{
+    font-family: arial;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.lista10{
+    font-family: arial;
+    font-size: 13px;
+    padding: 10px;
+}
+
+a:hover{
+    color:red;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.lista11{
+    padding-right: 10px;
+}
+.lista12{
+  text-align: 30px left;
+}
+
+footer{
+    width: 100%;
+    background-color:#c3c8c6;
+    height: 30px;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+

@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin:0%;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Style the header */
+  header {
+    background-color: #013263;
+    background-image: linear-gradient(to bottom,  #699bcd, #013263 );
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+  nav {
+    float: left;
+    width: 20%;  
+    height: 150px;
+    padding: 20px;
+    background-color: #013263;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    
+  }
+
+  h1{
+    font-size: 20px;
+    
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  li{
+    border: 1px solid #1561ad;
+    padding: 1rem;
+    line-height: 3px;
+    width: 95px;
+  }
+
+
+
+  a:hover{
+    color: rgb(174, 20, 35);
+  }
+
+  article {
+    width: 100%;
+    height: 73vh;
+    background-image: url(../imagens/Vector_2598.jpg);
+    padding: 30px;
+  }
+
+ .quadrado{
+    padding-top: 20px;
+    padding-left: 400px;
+    text-align: justify;
+    width: 70%;
+    height: 260px;
+    color: white;
+    font-size: 13px;
+ }
+
+  footer {
+    background-color: #013263;
+    width: 100%;
+    height: 60px;
+    padding-left: 600px;
+    padding-top: 20px;
+    color: white;
+    font-size: 12px;
+  }
+
+  
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }

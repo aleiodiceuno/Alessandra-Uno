@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../imagens/banners-modernos-coloridos_1035-8565.jpg);
+  }
+
+  /* Style the header */
+  header {
+    padding: 40px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+
+  }
+
+  nav {
+    float: left;
+    width: 20%;
+     
+    background: #ffedce;
+    padding: 20px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  a:hover{
+    color: orange;
+  }
+
+  a{
+    color: black;
+  }
+
+  article {
+    float: left;
+    width: 70%;
+    height: 100%;
+    padding-left: 100px;
+  }
+
+  div, h1, p{
+    padding-top: 20px;
+  }
+
+  h1,p{
+ padding-top: 3px;
+  }
+
+  section::after {
+    background: #ccc;
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  footer {
+    background-color: #ffedce;
+    padding: 10px;
+    text-align: center;
+    color: rgb(3, 3, 3);
+    font-size: 10px;
+  }
+
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }

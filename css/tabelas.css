@@ -1,0 +1,27 @@
+html{
+    background-image: url(../imagens/fundo\ preto.jpg);
+}
+
+
+body{
+    padding-left: 320px;
+}
+
+
+thead{
+    background-color: #c7cfdc;
+}
+
+
+tbody{
+    background-color:#c7cfdc;
+}
+
+tfoot{
+    background-color: #c7cfdc;
+}
+
+.borda{
+    background-color: #7c8ba9;
+
+}
